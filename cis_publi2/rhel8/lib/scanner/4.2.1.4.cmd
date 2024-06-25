@@ -1,0 +1,1 @@
+echo "Review the contents of the /etc/rsyslog.conf and /etc/rsyslog.d/*.conf files to ensure appropriate logging is set"

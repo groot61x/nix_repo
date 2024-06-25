@@ -1,0 +1,1 @@
+rpm -q gdm || ls /etc/gdm/greeter.dconf-defaults

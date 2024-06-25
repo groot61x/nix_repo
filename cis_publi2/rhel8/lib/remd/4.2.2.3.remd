@@ -1,0 +1,6 @@
+t=$(grep '^Storage=persistent' /etc/systemd/journald.conf | wc -l)
+
+if [[ $t == '0' ]];then
+	sed -i '/#Storage=*/ a Storage=persistent' /etc/systemd/journald.conf
+	systemctl restart systemd-journald.service
+fi	

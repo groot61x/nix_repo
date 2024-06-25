@@ -1,0 +1,5 @@
+cat > /etc/modprobe.d/CIS2_udf.conf << "EOF"
+install udf /bin/true
+EOF
+
+rmmod udf

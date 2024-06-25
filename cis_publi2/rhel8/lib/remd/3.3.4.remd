@@ -1,0 +1,6 @@
+cat > /etc/modprobe.d/CIS2_tipc.conf << "EOF"
+install tipc /bin/true
+EOF
+
+rmmod tipc
+

@@ -1,0 +1,1 @@
+grep -Ei '^\s*PermitUserEnvironment\s+yes' /etc/ssh/sshd_config

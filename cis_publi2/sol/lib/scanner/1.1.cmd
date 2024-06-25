@@ -1,0 +1,1 @@
+pkg update -n | grep "No updates available for this image"

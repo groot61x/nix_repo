@@ -1,0 +1,1 @@
+svcs -Ho state svc:/system/filesystem/rmvolmgr

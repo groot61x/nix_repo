@@ -1,0 +1,1 @@
+grep -Ei '^\s*AllowTcpForwarding\s+yes' /etc/ssh/sshd_config

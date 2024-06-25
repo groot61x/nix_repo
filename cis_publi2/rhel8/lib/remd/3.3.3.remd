@@ -1,0 +1,6 @@
+cat > /etc/modprobe.d/CIS2_rds.conf << "EOF"
+install rds /bin/true
+EOF
+
+rmmod rds
+
