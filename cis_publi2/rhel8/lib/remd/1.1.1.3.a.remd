@@ -1,5 +1,0 @@
-cat > /etc/modprobe.d/CIS2_squashfs.conf << "EOF"
-install squashfs /bin/true
-EOF
-
-rmmod squashfs

@@ -1,5 +1,0 @@
-cat > /etc/modprobe.d/CIS2_cramfs.conf << "EOF"
-install cramfs /bin/true
-EOF
-
-rmmod cramfs

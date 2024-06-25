@@ -1,1 +1,0 @@
-svcs -Ho state svc:/application/graphical-login/gdm:default

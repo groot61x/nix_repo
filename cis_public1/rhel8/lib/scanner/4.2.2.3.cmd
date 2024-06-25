@@ -1,1 +1,0 @@
-grep -e ^\s*Storage /etc/systemd/journald.conf

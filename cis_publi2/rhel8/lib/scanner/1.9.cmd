@@ -1,1 +1,0 @@
-dnf check-update

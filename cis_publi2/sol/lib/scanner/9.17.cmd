@@ -1,8 +1,0 @@
-getent group | cut -f3 -d":" | sort -n | uniq -c | while read x ; do
-  [ -z "${x}" ] && break
-  set - $x
-  if [ $1 -gt 1 ]; then
-    grps=`getent group | nawk -F: '($3 == n) { print $1 }' n=$2 | xargs`
-    echo "Duplicate GID ($2): ${grps}"
-  fi
-done

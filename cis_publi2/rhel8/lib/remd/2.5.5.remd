@@ -1,1 +1,0 @@
-yum install -y net-snmp; systemctl enable --now snmpd
