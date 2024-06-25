@@ -1,0 +1,1 @@
+svcs -Ho state svc:/network/nis/server

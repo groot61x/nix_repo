@@ -1,0 +1,1 @@
+grep -Ei '^\s*HostbasedAuthentication\s+yes' /etc/ssh/sshd_config

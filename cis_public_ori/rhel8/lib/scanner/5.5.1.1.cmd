@@ -1,0 +1,1 @@
+grep -E '^PASS_MAX_DAYS' /etc/login.defs

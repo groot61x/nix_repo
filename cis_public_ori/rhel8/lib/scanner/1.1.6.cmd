@@ -1,0 +1,1 @@
+mount | grep -E '\s/var\s'

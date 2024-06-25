@@ -1,0 +1,4 @@
+cat > /etc/sysctl.d/50-kernel-random.conf << "EOF"
+kernel.randomize_va_space = 2
+EOF
+
