@@ -1,2 +1,0 @@
-find /var/log/ -type f -perm /o+rwx -exec chmod o-rwx "{}" +
-

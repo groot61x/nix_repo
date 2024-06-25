@@ -1,1 +1,0 @@
-grep pam_wheel.so /etc/pam.d/su

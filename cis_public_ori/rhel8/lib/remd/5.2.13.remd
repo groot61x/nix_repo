@@ -1,2 +1,0 @@
-sed -i 's/^ClientAliveCountMax 3/ClientAliveCountMax 0/g' /etc/ssh/sshd_config
-systemctl restart sshd

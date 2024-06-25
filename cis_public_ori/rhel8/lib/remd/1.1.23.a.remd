@@ -1,5 +1,0 @@
-cat > /etc/modprobe.d/CIS2_usb-storage.conf << "EOF"
-install usb-storage /bin/true
-EOF
-
-rmmod usb-storage

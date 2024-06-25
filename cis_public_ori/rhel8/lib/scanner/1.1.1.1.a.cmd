@@ -1,1 +1,0 @@
-modprobe -n -v cramfs 

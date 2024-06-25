@@ -1,1 +1,0 @@
-grep -P '^\+[^:\n\r]*:' /etc/passwd

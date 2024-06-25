@@ -1,5 +1,0 @@
-t=$(grep '^Defaults\s*use_pty' /etc/sudoers | wc -l)
-
-if [[ $t == '0' ]];then
-	sed -i '/## This file must be edited with the*/ a Defaults\tuse_pty' /etc/sudoers
-fi	

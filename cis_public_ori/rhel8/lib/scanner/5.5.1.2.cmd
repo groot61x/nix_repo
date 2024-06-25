@@ -1,1 +1,0 @@
-grep ^\s*PASS_MIN_DAYS /etc/login.defs | awk '{print $2}'

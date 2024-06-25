@@ -1,6 +1,0 @@
-t=$(grep '^Compress=yes' /etc/systemd/journald.conf | wc -l)
-
-if [[ $t == '0' ]];then
-	sed -i '/#Compress=*/ a Compress=yes' /etc/systemd/journald.conf
-	systemctl restart systemd-journald.service
-fi	

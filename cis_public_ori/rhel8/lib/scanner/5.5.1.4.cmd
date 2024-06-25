@@ -1,1 +1,0 @@
-useradd -D | grep INACTIVE

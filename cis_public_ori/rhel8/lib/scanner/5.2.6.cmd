@@ -1,1 +1,0 @@
-grep -Ei '^\s*x11forwarding\s+yes' /etc/ssh/sshd_config
