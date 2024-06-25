@@ -1,0 +1,1 @@
+grep -Ei '^\s*ignorerhosts\s+no\b' /etc/ssh/sshd_config

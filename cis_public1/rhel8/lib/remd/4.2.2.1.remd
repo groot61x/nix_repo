@@ -1,0 +1,6 @@
+t=$(grep '^ForwardToSyslog=yes' /etc/systemd/journald.conf | wc -l)
+
+if [[ $t == '0' ]];then
+	sed -i '/#ForwardToSyslog=*/ a ForwardToSyslog=yes' /etc/systemd/journald.conf
+	systemctl restart systemd-journald.service
+fi	
