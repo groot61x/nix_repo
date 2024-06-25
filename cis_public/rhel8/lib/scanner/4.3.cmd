@@ -1,0 +1,1 @@
+echo "Review <br>/etc/logrotate.conf and /etc/logrotate.d/ <br>and verify logs are rotated according to site policy"

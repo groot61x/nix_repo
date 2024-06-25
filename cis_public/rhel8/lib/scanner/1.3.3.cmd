@@ -1,0 +1,1 @@
+grep -Esi '^\s*Defaults\s+([^#]+,\s*)?logfile=' /etc/sudoers /etc/sudoers.d/*

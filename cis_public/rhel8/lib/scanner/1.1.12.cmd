@@ -1,0 +1,1 @@
+mount | grep /var/log/audit

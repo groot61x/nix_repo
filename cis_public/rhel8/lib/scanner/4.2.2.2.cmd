@@ -1,0 +1,1 @@
+grep -e ^\s*Compress /etc/systemd/journald.conf

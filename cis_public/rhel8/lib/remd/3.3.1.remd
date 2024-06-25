@@ -1,0 +1,6 @@
+cat > /etc/modprobe.d/CIS2_dccp.conf << "EOF"
+install dccp /bin/true
+EOF
+
+rmmod dccp
+
